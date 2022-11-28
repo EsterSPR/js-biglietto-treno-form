@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fff;
+}
+
+#generaPass, #annullaPass {
+    background-color: lightgrey;
+    color: #b91550;
+}
+
+#generaPass:hover, #annullaPass:hover {
+    background-color: rgb(187, 185, 185);
+}
+
+input {
+    border: 1px solid #b91550;
+}
+
+label {
+    color: #b91550;
+}
