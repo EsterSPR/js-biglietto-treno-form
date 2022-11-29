@@ -9,62 +9,59 @@
 
     <title>Biglietto del treno</title>
 </head>
-<body style="background-color: #B91550;" class="text-center p-5">
+<body style="background-image: url(https://media.istockphoto.com/id/1167253251/photo/synthwave-wireframe-net-80s-retro-futurism-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=TiE75qMcIyu9utg9YWOx_79JoPm4epdOOjr7oKMyGyU=); background-size: cover;" class="text-center p-5">
 
-    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <h1 class="mb-3">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
-    <div class="container bg-light py-3 px-5 rounded">
+    <div class="container py-3 px-5 rounded es_calcola">
         <form class="row">
 
             <div class="col-4 px-5">
                 <label for="nomePass" class="form-label">Nome e Cognome</label>
-                <input type="text" id="nomePass" class="form-control" style="border: 1px solid #b91550;">
+                <input type="text" id="nomePass" class="form-control" style="border: 1px solid #b915ae; background-color: #202030; color: #fff;">
             </div>
 
             <div class="col-4 px-5">
                 <label for="chilometriPass" class="form-label">Km da percorrere</label>
-                <input type="text" id="chilometriPass" class="form-control" style="border: 1px solid #b91550;">
+                <input type="text" id="chilometriPass" class="form-control" style="border: 1px solid #b915ae; background-color: #202030; color: #fff;">
             </div>
 
             <div class="col-4 px-5">
                 <label for="etaPass" class="form-label">Età del passeggero</label>
-                <input type="text" id="etaPass" class="form-control" style="border: 1px solid #b91550;">
+                <input type="text" id="etaPass" class="form-control" style="border: 1px solid #b915ae; background-color: #202030; color: #fff;">
             </div>
             
         </form>
 
-        <button id="generaPass" class="mt-5 p-1 rounded mx-2" style="border: 1px solid #b91550;"><strong>Genera</strong></button>
-        <button id="annullaPass" class="mt-5 p-1 rounded mx-2" style="border: 1px solid #b91550;" onclick="myFunction()"><strong>Annulla</strong></button>
+        <button id="generaPass" class="mt-5 p-1 rounded mx-2" style="border: 1px solid #b915ae;"><strong>Genera</strong></button>
+        <button id="annullaPass" class="mt-5 p-1 rounded mx-2" style="border: 1px solid #b915ae;" onclick="myFunction()"><strong>Annulla</strong></button>
     </div>
     
     <br><br>
     
-    <h1>IL TUO BIGLIETTO</h1>
+    <h1 class="mb-3">IL TUO BIGLIETTO</h1>
 
-    <div class="container bg-light py-3 px-5 rounded">
+    <div class="container p-5 rounded es_ticket">
         <div class="row">
-            <div class="col-12 mb-3">DETTAGLIO PASSEGGERI <hr></div>
-        </div>
-        <div class="row">
-            <div class="col-4">
+            <div class="col-4 es_left">
                 <strong>NOME PASSEGGERO</strong><br>
-                <p id="nomePassOut"></p>
+                <p id="nomePassOut" style="color: #202030; margin-top: 50px;"></p>
             </div>
             <div class="col-2">
                 <strong>Offerta</strong><br>
-                <p id="offertaPassOut"></p>
+                <p id="offertaPassOut" style="color: #202030; margin-top: 50px"></p>
             </div>
             <div class="col-2">
                 <strong>Carrozza</strong><br>
-                <p>5</p>
+                <p id="es_carrozza" style="color: #202030; margin-top: 50px">5</p>
             </div>
             <div class="col-2">
                 <strong>Codice CP</strong><br>
-                <p>92911</p>
+                <p id="es_cp" style="color: #202030; margin-top: 50px">92911</p>
             </div>
             <div class="col-2">
                 <strong>Costo Biglietto</strong><hb>
-                <p id="costoPassOut"></p>
+                <p id="costoPassOut" style="color: #202030; margin-top: 50px"></p>
             </div>
         </div>
     </div>

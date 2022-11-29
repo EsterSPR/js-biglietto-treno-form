@@ -10,17 +10,28 @@ h1 {
 
 #generaPass, #annullaPass {
     background-color: lightgrey;
-    color: #b91550;
 }
 
 #generaPass:hover, #annullaPass:hover {
     background-color: rgb(187, 185, 185);
 }
 
-input {
-    border: 1px solid #b91550;
+label {
+    color: #b915ae;
 }
 
-label {
-    color: #b91550;
+div strong {
+    color: #b915ae;
+}
+
+.es_left {
+    border-right: 5px dotted #202030;
+}
+
+.es_ticket {
+    border: 2px dotted #202030;
+}
+
+.es_calcola, .es_ticket {
+    background-color: rgba(255, 255, 255, 0.7);
 }
